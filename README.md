@@ -16,26 +16,19 @@ Este es un proyecto básico de una lista de tareas (To-Do List) utilizando TypeS
 
 
 ## Archivos y Configuración
-1. package.json
-
+#### 1. package.json
 Este archivo contiene las dependencias y los scripts para compilar y ejecutar el proyecto.
 
-
-2. tsconfig.json
-
+#### 2. tsconfig.json
 Este archivo configura **TypeScript**, indicando cómo se compilan los archivos .ts
 
-3. index.html
-
+#### 3. index.html
 Archivo HTML principal que estructura la página de la lista de tareas.
 
-4. src/app.ts
-
+#### 4. src/app.ts
 Lógica principal de la aplicación en TypeScript.
 
-
-5. src/styles.css
-
+#### 5. src/styles.css
 Estilos básicos para la aplicación.
 
 
@@ -43,24 +36,24 @@ Estilos básicos para la aplicación.
 
 Sigue los pasos a continuación para configurar y ejecutar el proyecto.
 
-Paso 1: Descarga el proyecto
+#### Paso 1: Descarga el proyecto
 
-Paso 2: Instala las dependencias del Proyecto
+#### Paso 2: Instala las dependencias del Proyecto
+    
     npm install
 
-Paso 3: Configura TypeScript
-
+#### Paso 3: Configura TypeScript
 Genera el archivo de configuración de TypeScript con el siguiente comando, si no está creado:
 
     npx tsc --init
 
-Paso 4: Compila el proyecto
+#### Paso 4: Compila el proyecto
 
 Compila los archivos TypeScript a JavaScript utilizando el siguiente comando:
 
     npm run build
 
-Paso 5: Ejecuta el servidor
+#### Paso 5: Ejecuta el servidor
 
 Inicia el servidor de desarrollo con el siguiente comando:
 
